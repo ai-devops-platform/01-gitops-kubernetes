@@ -25,7 +25,7 @@ This repo is part of my **Platform Engineering Portfolio**, focusing on **automa
 
 ## 🗺️ Diagram: GitOps Flow
 
-```mermaid
+
 flowchart TB
     Dev[Developers]
 
