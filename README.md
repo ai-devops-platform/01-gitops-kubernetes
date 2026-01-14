@@ -109,21 +109,9 @@ This repo is part of my **Platform Engineering Portfolio**, focusing on **automa
 ---
 
 🗂️ Repository Structure
-01-gitops-kubernetes/
-├── apps/                  # Sample applications (nginx, python, .NET)
-│   ├── app1/
-│   └── app2/
-├── charts/                # Helm charts for applications
-├── environments/          # GitOps environment folders
-│   ├── dev/
-│   ├── qa/
-│   └── prod/
-├── pipelines/             # Jenkinsfiles or CI pipeline YAMLs
-├── argo/                  # ArgoCD application manifests
-├── scripts/               # Deployment helper scripts
-├── security/              # Policy-as-code examples (OPA, Trivy)
-├── observability/         # Prometheus/Grafana configs
-└── README.md
+## 🗂 Repository Structure
+
+
 
 
 🌟 Key Features
