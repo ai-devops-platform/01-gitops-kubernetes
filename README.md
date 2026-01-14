@@ -67,7 +67,7 @@ flowchart TB
     %% Postmortem loop
     Incident --> Postmortem
     Postmortem --> Dev
-    Postmortem --> S
+    Postmortem --> SLO
 
 
 
