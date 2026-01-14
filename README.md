@@ -69,11 +69,13 @@ flowchart TB
     Postmortem --> Dev
     Postmortem --> SLO
 
-🔹 SLO vs SLA vs SLI
-Term	Definition	Example
-SLI (Service Level Indicator)	Metric used to measure reliability. 	% of successful HTTP requests, latency < 200ms
-SLO (Service Level Objective)	Target for that metric	99.9% of requests must succeed in a month
-SLA (Service Level Agreement)	Contractual commitment to customers	If availability < 99.9%, compensation is given
+### 🔹 SLO vs SLA vs SLI
+
+| Term | Definition | Example |
+|------|------------|---------|
+| **SLI** (Service Level Indicator) | Metric used to measure reliability | % of successful HTTP requests, latency < 200ms |
+| **SLO** (Service Level Objective) | Target for that metric | 99.9% of requests must succeed in a month |
+| **SLA** (Service Level Agreement) | Contractual commitment to customers | If availability < 99.9%, compensation is given |
 
 ✅ Think of it like:
 
