@@ -83,8 +83,6 @@ SLI = measurement
 SLO = internal goal
 SLA = external promise
 
-<img width="975" height="427" alt="image" src="https://github.com/user-attachments/assets/93c2235a-660a-4123-95ed-9199e9af9ccf" />
-
 # GitOps & Kubernetes Portfolio
 
 This repository demonstrates **production-grade GitOps workflows** using:
@@ -110,40 +108,6 @@ This repo is part of my **Platform Engineering Portfolio**, focusing on **automa
 
 ---
 
-## 🗺️ Diagram: GitOps Flow
-
-```mermaid
-flowchart TB
-    Dev[Developers]
-
-    Git[Git Repositories<br/>(App + Config)]
-    CI[CI Pipelines<br/>(Jenkins / Build + Test)]
-    CD[GitOps CD<br/>(ArgoCD / Flux)]
-    K8s[Kubernetes Cluster<br/>(Dev / QA / Prod)]
-    Monitor[Observability & Metrics<br/>(Prometheus + Grafana)]
-    Sec[Security & Policy Checks<br/>(Trivy + OPA + Vault)]
-    AI[AI Assistance<br/>(LLM + RAG)]
-    
-    %% Developer Workflow
-    Dev --> Git
-    Git --> CI
-    CI --> Git
-    Git --> CD
-
-    %% Deployment Workflow
-    CD --> K8s
-    K8s --> Monitor
-    K8s --> Sec
-
-    %% AI Integration
-    CI --> AI
-    Monitor --> AI
-    Sec --> AI
-    AI --> Dev
-
-    %% Rollback / Feedback
-    Monitor --> CD
-    Sec --> CD
 🗂️ Repository Structure
 01-gitops-kubernetes/
 ├── apps/                  # Sample applications (nginx, python, .NET)
