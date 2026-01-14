@@ -125,6 +125,7 @@ This repo is part of my **Platform Engineering Portfolio**, focusing on **automa
 ├── observability/         # Prometheus/Grafana configs
 └── README.md
 
+
 🌟 Key Features
 Feature	Description
 App-of-Apps Pattern	Manage multiple applications via a single ArgoCD root application
