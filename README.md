@@ -83,18 +83,5 @@ SLI = measurement
 SLO = internal goal
 SLA = external promise
 
-01-gitops-kubernetes/
-├── apps/                  # Sample applications (nginx, python, .NET)
-│   ├── app1/
-│   └── app2/
-├── charts/                # Helm charts for applications
-├── environments/          # GitOps environment folders
-│   ├── dev/
-│   ├── qa/
-│   └── prod/
-├── pipelines/             # Jenkinsfiles or CI pipeline YAMLs
-├── argo/                  # ArgoCD application manifests
-├── scripts/               # Deployment helper scripts
-├── security/              # Policy-as-code examples (OPA, Trivy)
-└── README.md
+<img width="975" height="427" alt="image" src="https://github.com/user-attachments/assets/93c2235a-660a-4123-95ed-9199e9af9ccf" />
 
